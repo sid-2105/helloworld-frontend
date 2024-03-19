@@ -1,0 +1,78 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.Page{
+  min-height: 100vh;
+  overflow-x: hidden;
+  font-family: 'Roboto', sans-serif;
+}
+
+.Page h1{
+  text-align: center;
+  font-size: 2vw;
+  text-decoration: underline #00a2ff;
+}
+
+.Page h2{
+  text-align: center;
+  font-size: 1.8vw;
+  margin: 2vh;
+}
+
+
+@media screen and (max-width:480px){
+  .Page{
+      margin-top: 5vh;
+  }
+
+  .body{
+    max-width: 100%;
+  }
+
+  .Page h1{
+    font-size: 6vw;
+  }
+
+  .Page h2{
+    font-size: 5vw;
+  }
+  
+}
+
+
+@media screen and (max-width:767px) and (min-width:482px){
+
+  .body{
+    max-width: 100%;
+  }
+
+  .Page h1{
+    font-size: 5vw;
+  }
+
+  .Page h2{
+    font-size: 4vw;
+  }
+  
+}
+
+
+@media screen and (max-width:1024px) and (min-width:769px){
+
+  .body{
+    max-width: 100%;
+  }
+
+  .Page h1{
+    font-size: 4vw;
+  }
+
+  .Page h2{
+    font-size: 3vw;
+  }
+  
+}
+

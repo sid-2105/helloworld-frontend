@@ -1,0 +1,47 @@
+.whywe{
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+    padding: 2vw;
+}
+
+.whywe_right img{
+    margin-top: 4vw;
+    animation: aboutanim2 5s forwards;
+}
+
+.whywe_left{
+    padding-right: 5vw;
+    animation: aboutanim 5s forwards;
+}
+
+
+@media screen and (max-width:480px){
+    .whywe{
+        flex-direction: column-reverse;
+    }
+
+    .whywe_right img{
+        width: 90vw;
+    }
+}
+
+@media screen and (max-width:767px) and (min-width:482px) {
+    .whywe{
+        flex-direction: column-reverse;
+    }
+
+    .whywe_right img{
+        width: 90vw;
+    }
+}
+
+@media screen and (max-width:1024px) and (min-width:769px) {
+    .whywe{
+        flex-direction: column-reverse;
+    }
+
+    .whywe_right img{
+        width: 95vw;
+    }
+}

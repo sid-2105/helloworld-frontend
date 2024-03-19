@@ -1,0 +1,154 @@
+.parent{
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+    padding: 10vw;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 800;
+}
+
+.icons{
+    text-align: center;
+}
+
+.eligibility{
+    border: 1px solid #00a2ff;
+    background-color:aliceblue;
+    height: 60vh;
+    width:35vw;
+    padding: 35px;
+    border-radius: 18px;
+    box-shadow: 0px 8px 10px 0px ;
+}
+
+
+.eligibility:hover{
+    background-color: #C5FFF8;
+    transform: scale(1.05);
+    transition: 2s;
+}
+
+.benifits{
+    border: 1px solid rgb(0, 162, 255);;
+    background-color:aliceblue;
+    height: 60vh;
+    width:35vw;
+    padding: 35px;
+    border-radius: 18px;
+    box-shadow: 0px 8px 10px 0px;
+}
+
+.benifits:hover{
+        background-color:#C5FFF8;
+        transform: scale(1.05);
+        transition: 2s;
+}
+
+.Card_title{
+    text-align: center;
+    font-size: 1.5vw;
+}
+
+.Card_img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.Card_list {
+    padding: 1vw;
+    font-weight: 600;
+    line-height: 2;
+    font-size: 1vw;
+}
+
+@media screen and (max-width:480px){
+
+    .parent{
+        display: block;
+    }
+    
+    .eligibility{
+        width: auto;
+        margin-bottom: 5vh;
+        height: 45vh;
+    }
+
+    .benifits{
+        width: auto;
+        height: 45vh;
+    }
+
+    .Card_title{
+        font-size: 3.5vw;
+    }
+
+    .Card_list {
+        padding: 1vw;
+        font-weight: 500;
+        font-size: 3vw;
+    }
+
+}
+
+
+@media screen and (max-width:767px) and (min-width:482px){
+
+    .parent{
+        display: block;
+    }
+    
+    .eligibility{
+        width: auto;
+        margin-bottom: 5vh;
+        height: 50vh;
+    }
+
+    .benifits{
+        width: auto;
+        height: 50vh;
+    }
+
+    .Card_title{
+        font-size: 3.5vw;
+    }
+
+    .Card_list {
+        padding: 1vw;
+        font-weight: 400;
+        font-size: 3vw;
+    }
+
+}
+
+
+@media screen and (max-width:1024px) and (min-width:769px){
+
+    .parent{
+        display: block;
+    }
+    
+    .eligibility{
+        width: auto;
+        margin-bottom: 5vh;
+        height: 55vh;
+    }
+
+    .benifits{
+        width: auto;
+        height: 55vh;
+    }
+
+    .Card_title{
+        font-size: 3vw;
+    }
+
+    .Card_list {
+        padding: 1vw;
+        font-weight: 400;
+        font-size: 2vw;
+    }
+
+}

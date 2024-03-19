@@ -1,0 +1,19 @@
+.typing-container {
+    margin-top: 50px;
+    text-decoration: none;
+  }
+  
+  .typing-text {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 530;
+    overflow: hidden; 
+  }
+
+  @media screen and (max-width:480px){
+    .typing-text {
+        font-weight: 400;
+      }
+  }
+  
+ 
+  
