@@ -14,14 +14,14 @@ const Gallery = () => {
       </div>
       <h2>Our Head</h2>
       <div className="head">
-        <ProfileCard profileType={'Top'} profileImage={'./principal.jpeg'} profileName={'Dr. Prof. HP Shukla'} profileDesignation={'Principal(UCER)'}/>
+        <ProfileCard profileType={'Top'} profileImage={'./principal.jpg'} profileName={'Dr. Prof. HP Shukla'} profileDesignation={'Principal(UCER)'}/>
         <ProfileCard profileType={'Top'} profileImage={'./deansw.jpeg'} profileName={'Dr. Swapnil Srivastava'} profileDesignation={'DEAN - Planning & Development'}/>
         <ProfileCard profileType={'Top'} profileImage={'./dean.jpeg'} profileName={'Dr. Nandita Pradhan'} profileDesignation={'DEAN - Student Welfare'}/>
         <ProfileCard profileType={'Top'} profileImage={'./vd.jpg'} profileName={'Dr. Vijay kr. Dwivedi'} profileDesignation={'HOD(CSE)'}/>
       </div>
       <h2>Our Faculty</h2>
       <div className="faculty">
-        <ProfileCard profileType={'Middle'} profileImage={'./prashant.jpeg'} profileName={'Prashant Soni'} profileDesignation={'Competitive Coding'}/>
+        <ProfileCard profileType={'Middle'} profileImage={'./prashant.jpg'} profileName={'Prashant Soni'} profileDesignation={'Competitive Coding'}/>
         <ProfileCard profileType={'Middle'} profileImage={'./rahul.jpeg'} profileName={'Rahul Kesarwani'} profileDesignation={'Web Development'}/>
         <ProfileCard profileType={'Middle'} profileImage={'./pal.png'} profileName={'Pallavi Shukla'} profileDesignation={'AI/ML'}/>
         <ProfileCard profileType={'Middle'} profileImage={'./earth.jpg'} profileName={'Bhanu Rai'} profileDesignation={'App Development'}/>
