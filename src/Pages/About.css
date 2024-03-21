@@ -39,7 +39,7 @@
 
   100%{
     transition: 2s;
-    transform: translate(-1vh);
+    transform: translate(1vh);
     opacity: 1;
   }
 }

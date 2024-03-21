@@ -3,7 +3,7 @@ import "./Gallery.css";
 import ImageCarousel from "../Components/Image Carousel/ImageCarousel";
 import ProfileCard from "../Components/ProfileCard/ProfileCard";
 
-const images = ['./wksp1.jpg', "./wksp2.jpg", "./wksp3.jpg", "./wksp4.jpg", "./wksp5.jpg", "./wksp6.jpg", "./wksp7.jpg", "./wksp8.jpg",];
+const images = ['./wksp1.jpg', "./wksp2.jpg", "./wksp3.jpg", "./wksp4.jpg", "./wksp5.jpg", "./wksp6.jpg", "./wksp7.jpg", "./wksp8.jpg", "./wksp9.jpg", "./wksp10.jpg", "./wksp11.jpg", "./wksp12.jpg", "./wksp13.jpg", "./wksp14.jpg", "./wksp15.jpg"];
 
 const Gallery = () => {
   return (
@@ -24,7 +24,7 @@ const Gallery = () => {
         <ProfileCard profileType={'Middle'} profileImage={'./prashant.jpg'} profileName={'Prashant Soni'} profileDesignation={'Competitive Coding'}/>
         <ProfileCard profileType={'Middle'} profileImage={'./rahul.jpeg'} profileName={'Rahul Kesarwani'} profileDesignation={'Web Development'}/>
         <ProfileCard profileType={'Middle'} profileImage={'./pal.png'} profileName={'Pallavi Shukla'} profileDesignation={'AI/ML'}/>
-        <ProfileCard profileType={'Middle'} profileImage={'./earth.jpg'} profileName={'Bhanu Rai'} profileDesignation={'App Development'}/>
+        <ProfileCard profileType={'Middle'} profileImage={'./bhanu.jpg'} profileName={'Bhanu Rai'} profileDesignation={'App Development'}/>
       </div>
       <h2>Our Team</h2>
       <div className="team">

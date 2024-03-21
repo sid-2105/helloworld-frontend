@@ -1,7 +1,8 @@
 
 .carousel{
-    margin: 5vh 0;
+   margin: 5vh 0;
 }
+
 .slick-slide{
     display: flex !important;
     align-items: center;
@@ -47,9 +48,10 @@
         margin: 5vh 0;
     }
 
+
     .carouselimg img{
-        width: 200%;
-        height: 100%;
+        width: 250%;
+        height: 70%;
         border-radius: 8%;
     }
 
